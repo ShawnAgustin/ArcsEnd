@@ -1,0 +1,21 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/prologue.rpy", line 73: expected statement.
+    nvl "{b}\"MMOHOTS FIRST LOOK AT ARC'S END\"{/b}"
+       ^
+
+File "game/prologue.rpy", line 74: expected statement.
+    nvl "{b}The most anticipated MMORPG of the year, Arc's End, is set to release at midnight!{/b}"
+       ^
+
+File "game/prologue.rpy", line 75: expected statement.
+    nvl "{b}Arc's End has reached a new record of 720,000 copies pre-ordered!{/b}"
+       ^
+
+File "game/prologue.rpy", line 76: expected statement.
+    nvl "{b}Save the Land of Ferrous from the corrupted god, Arc, and fight alongside allies.{/b}"
+       ^
+
+Ren'Py Version: Ren'Py 6.99.12.3.2123

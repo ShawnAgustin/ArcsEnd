@@ -1,0 +1,19 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+Exception: Sayer 'gg' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:/WINDOWS/system32/script.rpyc", line 12, in script call
+  File "C:/WINDOWS/system32/tank_script.rpyc", line 269, in script
+  File "C:\Users\nexog\Documents\Renpy\renpy-6.99.12.2-sdk\renpy\ast.py", line 593, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\nexog\Documents\Renpy\renpy-6.99.12.2-sdk\renpy\ast.py", line 509, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'gg' is not defined.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.3.2123
+Arc's End 1.20

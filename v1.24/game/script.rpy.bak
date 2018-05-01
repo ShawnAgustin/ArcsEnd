@@ -1,0 +1,22 @@
+label start:
+
+    # variables
+    $ healer_FP = 0
+    $ tank_FP = 0
+    $ dps_FP = 0
+    $ bad_ending = 0
+
+    #show screen fp_points
+    call prologue
+    call main_story
+    call tank_preArc
+    call tank_done
+
+
+    #call dps_preArc
+
+
+    # continue main arc
+
+
+    return
