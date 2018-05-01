@@ -1,7 +1,7 @@
 # Main Arc = Dale
 
 label tank_preArc:
-    play music "music/Slice of days.mp3"
+    play music "music/Slice of days.wav"
 
     "{i}The next morning...{/i}"
 
@@ -266,14 +266,6 @@ label tank_preArc:
     show meiko IGN_angry with dissolve
     tank "Ugh, you're so annoying."
 
-    gg "uz a bich azz nibba"
-    gg "u"
-    gg "tryna"
-    gg "fuh"
-    gg "or"
-    gg "wuh"
-    gg "??"
-
     show meiko IGN with dissolve
     tank "Is that it right there?"
     mg "I think it is. The quest indicator is glowing so it means we're nearing the area."
@@ -283,7 +275,7 @@ label tank_preArc:
 ##################################################
 
     scene grotto with fade
-    play music "music/Grotto.mp3"
+    play music "music/Grotto.wav"
     show meiko IGN_happy with dissolve
     tank "Wow, the graphics for this dungeon are so pretty!"
     mg "Yeah, but you know what is prettier?"
@@ -345,7 +337,7 @@ label tank_preArc:
     meiko "What's with all these puns?"
     show meiko IGN with dissolve
 
-    play music "music/Action Music.mp3"
+    play music "music/Action Music.wav"
     show text "{b}Battle Start!{/b}" with dissolve:
         ypos 0.2
     pause 1.2

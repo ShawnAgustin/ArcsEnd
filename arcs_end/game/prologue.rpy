@@ -3,7 +3,7 @@ label prologue:
 
 ############################################################################
     scene classroom
-    play music "music/Classroom.mp3"
+    play music "music/Classroom.wav"
 
     show reno with dissolve
     reno "Good job everyone. Don't forget to do your homework and enjoy your summer!"
@@ -60,7 +60,7 @@ label prologue:
     pause 2
     stop sound
 
-    
+
     "You watch \"Your Truth in March\" to let time pass by."
     m "How is it only 6PM????"
     "I already finished watching the whole season..."
