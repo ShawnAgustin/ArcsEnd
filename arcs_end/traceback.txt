@@ -37,4 +37,4 @@ IOError: Couldn't find file 'music/Boss Music_1.mp3'.
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3.3347
 Arc's End 1.20
-Tue May 01 01:53:28 2018
+Tue May 01 02:04:15 2018

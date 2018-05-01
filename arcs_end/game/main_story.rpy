@@ -1,17 +1,17 @@
 label main_story:
-    
+
     scene black with fade
-    
+
     "Create your Character!"
     "{i}The screen is black, but you hear a voice of an old man speaking to you.{/i}"
-    
+
     $ player_ign = renpy.input("What is your name, Adventurer?")
     if player_ign == "":
-        $ player_ign = "imaJUNation" 
-        
+        $ player_ign = "imaJUNation"
+
     "Old Man Voice" "What is your race, [player_ign]?"
     $ mc_race = ""
-    
+
     menu race_pick:
         "Beast":
             "Old Man Voice" "The beasts are an agile race known for their aggressive behavior. Are you sure you want to choose this race?"
@@ -25,7 +25,7 @@ label main_story:
         "Fairy":
             "Old Man Voice" "The fairies are magical beings that are known for their use of Dark Magic. Are you sure you want to choose this class?"
             jump fairy_YN
-            
+
     label beast_YN:
         menu BYN:
             "Yes":
@@ -35,7 +35,7 @@ label main_story:
                 jump race_done
             "No":
                 jump race_pick
-                
+
     label human_YN:
         menu HYN:
             "Yes":
@@ -45,7 +45,7 @@ label main_story:
                 jump race_done
             "No":
                 jump race_pick
-                
+
     label elf_YN:
         menu EYN:
             "Yes":
@@ -55,7 +55,7 @@ label main_story:
                 jump race_done
             "No":
                 jump race_pick
-                
+
     label fairy_YN:
         menu FYN:
             "Yes":
@@ -64,18 +64,18 @@ label main_story:
                 jump race_done
             "No":
                 jump race_pick
-                
+
     label race_done:
     "Welcome to the Land of Ferrous, [mc_race]"
     call loadscreen from _call_loadscreen
-    
+
 ##################################################
 
-    play music "music/Town Square_Main Menu.mp3"
+    play music "music/Town Square_Main Menu.wav"
     scene town_square with fade
-    
+
     show dale NPC with dissolve
-    
+
     dale "Would you like to know the basics?"
     mg "I'm good. I've played multiple MMORPGs before."
     dale "Okay, now initiating tutorial stages."
@@ -89,9 +89,9 @@ label main_story:
     pause 1.2
     hide text with dissolve
     dale "Congratulations! You've completed the tutorial."
-    
+
     m "zzZzzZzZZz"
-    
+
 ##################################################
 
     scene MC_room with fade
@@ -114,7 +114,7 @@ label main_story:
     scene town_square with fade
     m "I need to get started on finding some quests."
     "{i}You look around the Town Square, searching for available quests.{/i}"
-    
+
     show dale NPC with dissolve
     "{i}You notice a large NPC with an exclamation point above his head.{/i}"
     dale "Did someone say quest? :^)"
@@ -158,13 +158,13 @@ label main_story:
         "That's fine.":
             $ tank_FP += 1
             show meiko IGN_superblush with dissolve
-            tank "Thanks." 
+            tank "Thanks."
         "Why are you making the condition?":
             show meiko IGN_blush with dissolve
-            mg "I'm helping you!" 
+            mg "I'm helping you!"
             tank "Alright, I get it! Can you please help me?"
     #play sound "party.ogg"
-    
+
     show meiko IGN with dissolve
     mg "Well, to start off, an MMORPG stands for ..."
     show meiko IGN_angry with dissolve
@@ -173,7 +173,7 @@ label main_story:
     show text "{i}11 minutes later{/i}" with dissolve
     pause 1.2
     hide text with dissolve
-    
+
     scene grasslands with fade
     show meiko IGN with dissolve
     "It should've taken us 4 minutes, but I had to guide her through it."
@@ -182,7 +182,7 @@ label main_story:
     show meiko IGN_blush with dissolve
     tank "Oh okay, sure."
     scene black with fade
-    
+
 return
 
 label tank_done:

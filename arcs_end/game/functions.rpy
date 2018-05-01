@@ -30,7 +30,7 @@ label functions:
         show text "{b}QUEST ACCEPTED{/b}" with dissolve:
             ypos 0.2
         pause 1.5
-        #hide text with dissolve    
+        hide text with dissolve    
         return
 
     label questfinish:
