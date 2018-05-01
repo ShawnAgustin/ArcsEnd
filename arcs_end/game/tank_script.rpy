@@ -141,7 +141,7 @@ label tank_preArc:
     mg "Yeah, but the grotto is pretty far so we should stock up on some food before we go."
 
     show meiko IGN_smug with dissolve
-    tank "Pfffft, I don't need food, I'm a tank. I have some of the best health regen stats in the game!"
+    tank "Pffft, I don't need food, I'm a tank. I have some of the best health regen stats in the game!"
     mg "{i}Tanks{/i} for letting me know."
 
     show meiko IGN_really with dissolve
